@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Christmas-special</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/headerfoot.css" />
+		<link rel="stylesheet" href="css/Christmas-special.css" />
+		<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+		<script src="js/jQueryRotate.2.2.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/christmas.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="topnav-bg"></div>
+			<div class="header-wrap wcontainer clearfix">
+				<div class="hm-left">
+					<div class="logo p-icon">
+						<a href="/" title="Custom PCB Prototype Manufacturer">PCBWay</a>
+					</div>
+					<div class="secondary-branding">
+						<p class="h1">PCB Prototype the Easy Way</p>
+						<p>Full feature custom PCB prototype service.</p>
+					</div>
+				</div>
+				<div class="hm-right">
+					<div class="hd-language">
+						<!--hover addclass "hd-func-dropdown-active"-->
+						<span class="hd-cur-item"><i class="p-icon icon-flag icon-en"></i> EN<i class="p-icon icon-select-angle"></i></span>
+						<div class="hd-list hd-fold hd-language-list">
+							<a href="javascript:void(0)" rel="nofollow" class="active"><i class="p-icon icon-flag icon-en"></i> English</a>
+							<a href="javascript:void(0)" rel="nofollow"><i class="p-icon icon-flag icon-es"></i> Español</a>
+						</div>
+					</div>
+					<div class="nav-cart">
+						<a href="#" rel="nofollow">
+							<i class="p-icon"></i>
+							<span class="text hidden-sm">Cart</span>
+							<span class="cart-number">2</span>
+						</a>
+					</div>
+					<div class="nav-user-account">
+						<!--hover addclass"user-account-unfold"-->
+						<div class="user-account-info clearfix">
+							<i class="p-icon"></i>
+							<div class="user-account-inner">
+								<!--<span class="account-unsigned"><a href="#" rel="nofollow">Sign in</a><span class="ua-line">|</span><a href="#" rel="nofollow">Join</a></span> -->
+								<span id="login-stat-signed" class="notranslate">Hi, <b>1</b></span>
+								<div class="mypcbway">
+									<span>My PCBWay</span>
+									<!--<a rel="nofollow" href="/member/">My PCBWay</a>-->
+									<b style="display: inline;">(9)</b>
+									<!--cooki 记录帐号 提供多少订单信息-->
+								</div>
+							</div>
+						</div>
+						<div class="user-account-main">
+							<div class="flyout-user-signout" style="display: block;">
+								<a href="#" rel="nofollow">Sign Out</a>
+							</div>
+							<!--登录后 addstyle"display:block"-->
+							<div class="flyout-user-signIn">
+								<!--登录前 addstyle"display:block"-->
+								<p class="flyout-welcome-text">Welcome back, huwei</p>
+								<!--没有cooki的时候 默认加"Welcome to PCBWay.com"-->
+								<p>
+									<a class="sign-btn" href="#" rel="nofollow">Sign in</a>
+								</p>
+							</div>
+							<dl class="flyout-visitors-login">
+								<!--登录前 addstyle"display:block"-->
+								<dt>New Customer?</dt>
+								<dd>
+									<a class="join-btn" href="#" rel="nofollow">Join Free</a>
+								</dd>
+							</dl>
+							<div class="flyout-remind-list">
+								<p>
+									<a rel="nofollow" href="#"><b>(1)</b>Items in your Cart now cost less!</a>
+								</p>
+							</div>
+							<ul class="flyout-quick-entry">
+								<li>
+									<a href="/member/" rel="nofollow">My PCBWay</a>
+								</li>
+								<li>
+									<a href="/member/order/orderview.aspx" rel="nofollow">My Order</a>
+								</li>
+								<li>
+									<a href="#" rel="nofollow">Production Status</a>
+								</li>
+								<li>
+									<a href="/member/specials/coupons.aspx" rel="nofollow">My Coupons</a>
+								</li>
+								<li>
+									<a href="/member/myprofile/deliveryaddress.aspx" rel="nofollow">Delivery Address</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navigation">
+				<div class="navigation-nav wcontainer">
+					<span class="topNavli current">
+                	<a class="navitem" href="/">Home</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/orderonline.aspx">PCB Instant Quote</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/pcb_prototype/">Product Center </a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/pcb-assembly.html">PCB Assembly</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/why.html">Why Us?</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/project/share/">Feedback</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/capabilities.html">Capabilities</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/sponsor.html">Sponsorships</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/contact.html">Contact Us</a>
+                </span>
+					<span class="right icon-nemail">
+                	<i class="p-icon"></i>Service@pcbway.com
+                </span>
+				</div>
+			</div>
+		</div>
+		<!--中间内容-->
+		<div class="g-chritams-box">
+			<div class="wcontainer">
+				<!--头部-->
+				<div class="g-chritams-C-top">
+				</div>
+				<!--抽奖区-->
+				<div class="g-Lottery-box">
+					<div class="u-Lottery-bg"></div>
+					<div class="u-Lottery-conter clearfix">
+						<div class="u-Lottery-conter-L left">
+							<div class="u-time">
+								<div class="u-time-icon"></div>
+								<p class="u-p1" 1>Activity time:<br>From now until 2016.12.25</p>
+								<h3>100% winning!</h3>
+							</div>
+							<div class="u-Coupon-1">
+								<img src="images/Christmas/five.png" alt="" style="width: 100%; height: 72px;" />
+							</div>
+							<div class="u-Coupon-2">
+								<img src="images/Christmas/five.png" alt="" style="width: 100%; height: 72px;" />
+							</div>
+							<div class="u-Coupon-3">
+								<img src="images/Christmas/five.png" alt="" style="width: 100%; height: 72px;" />
+							</div>
+						</div>
+						<div class="u-Lottery-conter-Z left">
+							<h3>Quickly shake it</h3>
+							<h4>Coupon applies to all PCBWay products</h4>
+							<div class="u-plate">
+								<div class="u-rotate-bg"></div>
+
+								<div class="u-lottery-star">
+									<img src="images/Christmas/go.png" id="lotteryBtn">
+								</div>
+
+							</div>
+						</div>
+						<div class="u-Winners-list-R right">
+							<div class="u-Winners-top">
+								<span>Winners list</span>
+							</div>
+							<div class="u-Date-Winner">
+								<dl class="u-Date-Winner-Text">
+									<dd class="dd1">Date</dd>
+									<dd class="dd2">Winner</dd>
+									<dd class="dd3">Coupon</dd>
+								</dl>
+							</div>
+							<!--List,Scrolled List,DomainUpDown-->
+							<div class="u-activity" id="J_Activity">
+								<ul>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$5.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$10.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$10.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-23
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+									<li>
+										<div class="u-Date">
+											12-25
+										</div>
+										<div class="u-Winner">
+											<img src="images/Christmas/US.png" /> J****ma
+										</div>
+										<div class="u-Coupon">
+											$15.00
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--抽奖规则-->
+				<div class="u-rule-box">
+					<h3>Event Description</h3>
+					<p>
+						Participants: All registered users of pcbway.com<br> Coupon Specs:<br><br> 1. Each user can only draw once a day.<br> 2. During the event, each user can participate in the draw up to three times.<br> 3. The total amount of the coupon you receive can be added up.<br> 4. During the event where the user orders, PCBWay will be presented with a beautiful gift orders.
+					</p>
+					
+				</div>
+
+				<!--China制造-->
+				<div class="u-China">
+					<h3>Affordable Prototype PCB Manufacturer in China</h3>
+					<h4>Recommended One Click Specs</h4>
+					<div class="u-China-list clearfix">
+						<!--1-->
+						<div class="u-item active">
+							<div class="u-top-wrap">
+								<h3>No Hidden Cost lan</h3>
+								<p>Our pricing structure is transparent and has no hidden cost in it. We try our utmost to save your money and time.</p>
+
+							</div>
+							<ul class="u-Ul1">
+								<li>1-2layers </li>
+								<li>100*100mm</li>
+								<li>3-5 Days Delivery</li>
+							</ul>
+							<div class="u-acp">
+								US <i>$10.00</i> /10 Pieces
+							</div>
+							<div class="u-orp">Most Popular</div>
+							<a href="javascript:;">BUY NOW</a>
+						</div>
+						<!--2-->
+						<div class="u-item">
+							<div class="u-top-wrap">
+								<h3>Best Value</h3>
+								<p>At PCBWay.com, all the boards will go through the most stringent tests other than the basic visual check. </p>
+
+							</div>
+							<ul class="u-Ul2">
+								  
+								<li>L≤100mm W≤100mm </li>
+								<li>10 pcs 4 layers</li>
+								<li> 4-6 Days Delivery</li>
+							</ul>
+							<div class="u-acp">
+								
+								US <i>$47.00</i> /10 Pieces
+							</div>
+							<div class="u-orp">Quality Choice</div>
+							<a href="javascript:;">BUY NOW</a>
+						</div>
+						<!--3-->
+						<div class="u-item">
+							<div class="u-top-wrap">
+								<h3>PCB Assembly</h3>
+								<p>Just like PCB business, our PCBA services also specialize in prototyping and small-volume production, making PCBWay.com the one-stop destination of boards fabrication and assembly. </p>
+
+							</div>
+							<ul class="u-Ul3">
+
+								<li>Assembly service at low cost </li>
+								 <li>3-5 Days Delivery
+								</li>
+								
+							</ul>
+							<div class="u-acp">
+								US <i>$20.00</i> 
+							</div>
+							<div class="u-orp">Engineer's Choice</div>
+							<a href="javascript:;">BUY NOW</a>
+						</div>						
+					</div>
+				</div>
+				
+				<!--wconterbottom-->
+				<div class="u-map-wrap">
+					<h3>Global Coverage of pcbway Products and Services</h3>
+					<img src="images/Christmas/map.png" class="u-MAP"/>
+				</div>
+			</div>
+		</div>
+		<!--抽奖结果显示-->
+		<div class="result" id="result">
+			<div class="u-resultTxt" id="resultTxt">
+			</div>
+		</div>
+
+		<!--footer-->
+		<div class="footer">
+			<div class="wcontainer">
+				<div class="footer_left">
+					<div class="footer_left_top">
+						<dl>
+							<dt>Capabilities</dt>
+							<dd>
+								<a href="/capabilities.html" target="_blank">PCB Capabilities</a>
+							</dd>
+							<dd>
+								<a href="/quickturn-pcb-fabrication.html" target="_blank">Quickturn PCB Fabrication</a>
+							</dd>
+							<dd>
+								<a href="/stencil.aspx" target="_blank">SMD Stencils</a>
+							</dd>
+							<dd>
+								<a href="/prototype_pcb/" target="_blank">Prototype PCBs</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>Products/Services</dt>
+							<dd>
+								<a href="/orderonline.aspx" target="_blank">PCB Instant Quote</a>
+							</dd>
+							<dd>
+								<a href="/assembly-capabilities.html" target="_blank">PCB Assembly Service</a>
+							</dd>
+							<dd>
+								<a href="/pcb_prototype/" target="_blank">PCB Prototyping</a>
+							</dd>
+							<dd>
+								<a href="/pcb-service.html" target="_blank">Our Equipments</a>
+							</dd>
+							<dd>
+								<a href="/blog/" target="_blank">Blog/Engineering</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>Customer Support</dt>
+							<dd>
+								<a href="/project/share/" target="_blank">Feedback</a>
+							</dd>
+							<dd>
+								<a href="/sponsor.html" target="_blank">Sponsorships</a>
+							</dd>
+							<dd>
+								<a href="/faq-of-pcb.html" target="_blank">PCB FAQs</a>
+							</dd>
+							<dd>
+								<a href="/pcb_glossary/" target="_blank">PCB Glossary</a>
+							</dd>
+							<dd>
+								<a href="/project/member/invite/invite.aspx" target="_blank" rel="nofollow">Referral Program</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>About us</dt>
+							<dd>
+								<a href="/about.html" target="_blank">About Us</a>
+							</dd>
+							<dd>
+								<a href="/why.html" target="_blank">Why Buy From Us?</a>
+							</dd>
+							<dd>
+								<a href="/shipping_method_guide.aspx" target="_blank">Shipping Method Guide</a>
+							</dd>
+							<dd>
+								<a href="/privacy_policy.html" target="_blank">Privacy Policy</a>
+							</dd>
+							<dd>
+								<a href="/contact.html" target="_blank">Contact Us</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="footer_left_bottom">
+						<dl>
+							<dt>Payment Methods</dt>
+							<dd class="p-icon pay-methods">Paypal,Western Union,Bank Transfer,WebMoney,Visa,Credit Card</dd>
+						</dl>
+						<dl>
+							<dt>Delivery Services</dt>
+							<dd class="p-icon delivery-service">FedEx,UPS,DHL,China Post Air Mail,TNT,EMS ePacket,Hongkong Post Air Mail,EMS</dd>
+						</dl>
+						<dl>
+							<dt>Verified by</dt>
+							<dd>
+								<a href="http://www.pcbway.com/img/images/iso.jpg" target="_blank" class="p-icon iso9001">ISO 9001:2008 Certificate</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>Link Us on</dt>
+							<dd class="clearfix">
+								<a href="https://www.facebook.com/pcbway" target="_blank" title="Follow us on facebook" class="p-icon facebook">Facebook</a>
+								<a href="https://twitter.com/pcbway1" target="_blank" title="Follow us on twitter" class="p-icon twitter">twitter</a>
+								<a href="https://www.linkedin.com/company/pcbway" target="_blank" title="Follow us on linkedin" class="p-icon linkedin">linkedin</a>
+								<a href="https://plus.google.com/+pcbway1" target="_blank" title="Follow us on google plus" class="p-icon googlplus">google plus</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="footer_right">
+					<ul>
+						<li><input type="text" id="name" value="Name" name="name" class="text" onfocus="if(this.value=='Name')this.value=''" onblur="if(this.value=='')this.value='Name'"></li>
+						<li><input type="text" id="email" value="Email" name="email" class="text" onfocus="if(this.value=='Email')this.value=''" onblur="if(this.value=='')this.value='Email'"></li>
+						<li><textarea id="message" name="message" onfocus="if(this.value=='Message')this.value=''" onblur="if(this.value=='')this.value='Message'" rows="6">Message</textarea></li>
+						<li><input type="submit" class="ui-button-primary" id="footer-button" value="Send Message"></li>
+					</ul>
+				</div>
+				<p class="bottom-logo"><span class="p-icon">PCBWay</span> Custom PCB Prototype the Easy Way!</p>
+				<div class="footer_bottom">
+					Shenzhen JDB Technology Co., Ltd Address: No.2, Industry 3rd Road, Jinsha Village, Kengzi Street, Pingshan New Disctrict, Shenzhen, China HK Weiku information & Technology Co., Ltd Hangzhou Weiku information & Technology Co.,Ltd Address: 12th Floor,West No.2 Building, XinTianDi Business Center, No.71-8 ShiXiang Road,XiaCheng District,Hangzhou, China
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,348 @@
+body {
+  position: relative; }
+
+.g-chritams-box {
+  width: 100%;
+  height: auto;
+  background: url("../images/Christmas/bg.jpg") no-repeat;
+  position: relative;
+  padding-top: 50px; }
+  .g-chritams-box .g-chritams-C-top {
+    height: 544px;
+    background: url(../images/Christmas/santa-bg.png) no-repeat; }
+  .g-chritams-box .g-Lottery-box {
+    width: 100%;
+    height: auto;
+    margin-top: 100px; }
+    .g-chritams-box .g-Lottery-box .u-Lottery-bg {
+      height: 169px;
+      background: url("../images/Christmas/star.png") no-repeat;
+      background-size: 100% 169px;
+      background-position: 0 top; }
+    .g-chritams-box .g-Lottery-box .u-Lottery-conter {
+      width: 100%;
+      height: 578px;
+      background: #2F2F3A;
+      padding: 30px 20px;
+      box-sizing: border-box; }
+      .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L {
+        width: 18%;
+        height: 100%;
+        position: relative; }
+        .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L .u-time {
+          width: 100%;
+          height: 250px;
+          background: url("../images/Christmas/time-bg.jpg") no-repeat;
+          background-size: cover;
+          position: absolute;
+          top: -55px;
+          left: 0; }
+          .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L .u-time .u-time-icon {
+            width: 65px;
+            height: 69px;
+            background: url("../images/Christmas/surface-icon.png") no-repeat;
+            margin: 30px auto; }
+          .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L .u-time p.u-p1 {
+            font-size: 16px;
+            color: #fff;
+            line-height: 22px;
+            padding: 0 0 0 10px; }
+          .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L .u-time h3 {
+            font-size: 29px;
+            color: #fff;
+            padding: 0 5px 0 10px;
+            margin-top: 30px; }
+        .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L .u-Coupon-1 {
+          width: 100%;
+          height: 72px;
+          position: absolute;
+          top: 215px;
+          left: 0; }
+        .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L .u-Coupon-2 {
+          width: 100%;
+          height: 72px;
+          position: absolute;
+          top: 310px;
+          left: 0; }
+        .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-L .u-Coupon-3 {
+          width: 100%;
+          height: 72px;
+          position: absolute;
+          top: 405px;
+          left: 0; }
+      .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-Z {
+        width: 45%;
+        height: 100%; }
+        .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-Z h3 {
+          font-size: 40px;
+          color: #fff;
+          text-align: center; }
+        .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-Z h4 {
+          font-size: 24px;
+          color: #fff;
+          text-align: center; }
+        .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-Z .u-plate {
+          width: 408px;
+          height: 408px;
+          margin: 10px auto;
+          position: relative; }
+          .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-Z .u-plate .u-rotate-bg {
+            width: 100%;
+            height: 100%;
+            background: url("../images/Christmas/Lottery.png") no-repeat;
+            position: absolute;
+            top: 0;
+            left: 0; }
+          .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Lottery-conter-Z .u-plate .u-lottery-star {
+            width: 140px;
+            height: 152px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -70px;
+            margin-top: -76px;
+            cursor: pointer; }
+      .g-chritams-box .g-Lottery-box .u-Lottery-conter .u-Winners-list-R {
+        width: 37%;
+        height: 100%;
+        overflow: hidden;
+        background: #fff; }
+         .u-Winners-list-R .u-Winners-top {
+          width: 100%;
+          height: 40px;
+          border-bottom: 1px solid #2F2F3A;
+          background: url("../images/Christmas/gift-icon.png") no-repeat;
+          background-position: 20px center;
+          color: #333;
+          font-size: 24px;
+          line-height: 40px; }
+           .u-Winners-list-R .u-Winners-top span {
+            margin-left: 60px; }
+         .u-Winners-list-R .u-Date-Winner {
+          width: 100%;
+          height: 50px;
+          padding: 0 10px;
+          box-sizing: border-box; }
+           .u-Winners-list-R .u-Date-Winner .u-Date-Winner-Text {
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid #e5e5e5;
+            line-height: 50px;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold; }
+             .u-Winners-list-R .u-Date-Winner .u-Date-Winner-Text dd {
+              float: left; }
+             .u-Winners-list-R .u-Date-Winner .u-Date-Winner-Text .dd1 {
+              width: 20%;
+              height: 100%;
+              text-indent: 10px; }
+             .u-Winners-list-R .u-Date-Winner .u-Date-Winner-Text .dd2 {
+              width: 60%;
+              height: 100%;
+              text-indent: 35px; }
+             .u-Winners-list-R .u-Date-Winner .u-Date-Winner-Text .dd3 {
+              width: 20%;
+              height: 100%; }
+         .u-Winners-list-R .u-activity {
+          width: 100%;
+          height: 500px;
+          padding: 0 10px;
+          box-sizing: border-box;
+          position: relative;
+          overflow: hidden; }
+           .u-Winners-list-R .u-activity ul {
+            top: -15px; }
+           .u-Winners-list-R .u-activity li {
+            width: 100%;
+            height: 37px;
+            border-bottom: #e5e5e5 1px solid;
+            line-height: 38px; }
+             .u-Winners-list-R .u-activity li div {
+              float: left;
+              font-size: 16px;
+              color: #333; }
+             .u-Winners-list-R .u-activity li div.u-Date {
+              width: 20%;
+              height: 100%;
+              text-indent: 10px; }
+             .u-Winners-list-R .u-activity li div.u-Winner {
+              width: 60%;
+              height: 100%;
+              text-indent: 35px; }
+             .u-Winners-list-R .u-activity li div.u-Coupon {
+              width: 20%;
+              height: 100%;
+              color: #FF5B22; }
+  .g-chritams-box .u-rule-box {
+    width: 100%;
+    min-height: 299px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: url("../images/Christmas/xiao-Santa.png") no-repeat;
+    background-size: 187px 299px; }
+    .g-chritams-box .u-rule-box h3 {
+      text-align: center;
+      font-size: 34px;
+      color: #fff;
+      margin-top: 30px; }
+    .g-chritams-box .u-rule-box p {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 30px;
+      color: #fff;
+      line-height: 20px; }
+  .g-chritams-box .u-China {
+    width: 100%;
+    height: auto;
+    margin: 30px 0; }
+    .g-chritams-box .u-China h3 {
+      font-size: 40px;
+      color: #fff;
+      text-align: center; }
+    .g-chritams-box .u-China h4 {
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      margin: 15px 0; }
+    .g-chritams-box .u-China .u-China-list {
+      width: 100%; }
+    .g-chritams-box .u-China .u-item {
+      float: left;
+      position: relative;
+      width: 30%;
+      color: #fff;
+      margin-right: 40px;
+      padding: 0 20px 30px 20px;
+      background: #2F2F3A;
+      box-sizing: border-box; }
+      .g-chritams-box .u-China .u-item:hover {
+        background: #1D1D27; }
+      .g-chritams-box .u-China .u-item .u-top-wrap {
+        height: 120px;
+        padding: 40px 0; }
+      .g-chritams-box .u-China .u-item h3 {
+        width: 100%;
+        font-size: 26px;
+        color: #fff;
+        text-align: left;
+        margin-bottom: 30px; }
+      .g-chritams-box .u-China .u-item p {
+        font-size: 14px;
+        color: #fff;
+        text-align: left;
+        line-height: 20px; }
+      .g-chritams-box .u-China .u-item ul {
+        min-height: 90px;
+        padding-left: 120px;
+        margin-bottom: 20px; }
+        .g-chritams-box .u-China .u-item ul li {
+          margin: 0;
+          font-size: 15px;
+          line-height: 1.8;
+          font-weight: 300;
+          list-style: none; }
+      .g-chritams-box .u-China .u-item ul.u-Ul1 {
+        background: url("../images/Christmas/t-p1.png") no-repeat left center;
+        background-size: 104px 76px; }
+      .g-chritams-box .u-China .u-item ul.u-Ul2 {
+        background: url("../images/Christmas/t-p2.png") no-repeat left center;
+        background-size: 111px 66px; }
+      .g-chritams-box .u-China .u-item ul.u-Ul3 {
+        background: url("../images/Christmas/t-p3.png") no-repeat left center;
+        background-size: 105px 62px; }
+      .g-chritams-box .u-China .u-item .u-acp {
+        font-size: 18px;
+        color: #fff;
+        line-height: 22px; }
+        .g-chritams-box .u-China .u-item .u-acp i {
+          font-style: normal;
+          font-size: 26px;
+          color: #ff8a00; }
+      .g-chritams-box .u-China .u-item .u-orp {
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 30px; }
+      .g-chritams-box .u-China .u-item a {
+        display: block;
+        width: 80%;
+        height: 43px;
+        line-height: 43px;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        background: url(../images/Christmas/buy-now.png) center center no-repeat;
+        background-size: 282px 100%;
+        transition: all ease .3s; }
+  .g-chritams-box .u-map-wrap {
+    width: 100%;
+    padding: 20px 0; }
+    .g-chritams-box .u-map-wrap h3 {
+      color: #fff;
+      font-size: 34px;
+      padding: 100px 0;
+      text-align: center;
+      font-weight: 300; }
+    .g-chritams-box .u-map-wrap .u-MAP {
+      width: 100%; }
+
+.result {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  filter: alpha(opacity=90);
+  z-index: 10000; }
+  .result div.u-resultTxt {
+    width: 625px;
+    height: 480px;
+    background: #fff;
+    z-index: 100000;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -313px;
+    margin-top: -240px; }
+    .result div.u-resultTxt .close {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      width: 32px;
+      height: 32px;
+      text-indent: -100px;
+      background: url("../images/Christmas/cloce.png") no-repeat;
+      overflow: hidden;
+      cursor: pointer; }
+    .result div.u-resultTxt p {
+      margin: 60px auto 0;
+      width: 403px;
+      height: 42px;
+      background: url("../images/Christmas/tk-text.jpg") no-repeat; }
+    .result div.u-resultTxt em {
+      margin: 80px auto 70px;
+      display: block;
+      width: 405px;
+      height: 129px; }
+    .result div.u-resultTxt em.em5 {
+      background: url("../images/Christmas/tk-5.jpg") no-repeat; }
+    .result div.u-resultTxt em.em10 {
+      background: url("../images/Christmas/tk-10.jpg") no-repeat; }
+    .result div.u-resultTxt em.em15 {
+      background: url("../images/Christmas/tk-15.jpg") no-repeat; }
+    .result div.u-resultTxt div.u-click {
+      width: 283px;
+      height: 43px;
+      margin: 0 auto;
+      background: url("../images/Christmas/tk-click.jpg") no-repeat;
+      position: relative; }
+      .result div.u-resultTxt div.u-click a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0; }
